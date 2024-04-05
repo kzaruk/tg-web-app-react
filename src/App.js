@@ -13,6 +13,7 @@ function App() {
         tg.ready()
     }, []);
 
+  console.log(window.location.href)
   return (
     <div className="App">
         <Header/>
